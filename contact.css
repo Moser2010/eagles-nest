@@ -1,0 +1,105 @@
+body {
+    text-align: center;
+}
+
+#wrapper {
+    width: 60%;
+    margin:auto;
+}
+#title {
+    border-radius: 0px 0px 10px 10px;
+    margin-top: -3%;
+    padding:3%;
+}
+header, footer, .navbar-default {
+    background-color: #4C0809;
+    color: #FFFFFF;
+    border: none;
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav li a {
+    color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav .active a {
+    color: #FFFFFF;
+    background-color: #4C0809;
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    background-color: #4C0809;
+}
+
+.navbar-default .navbar-toggle {
+    color: #FFFFFF;
+}
+
+p {
+    margin: 0 15% 0;
+}
+
+section header{
+    background-color: white;
+    border-top: 1px solid black;
+}
+
+section h2 {
+    margin-top: 0;
+    width: 125px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4C0809;
+}
+
+.navbar-nav ul {
+    list-style-type: none;
+}
+
+.link {
+    background-color: #2D7AA8;
+    color: #FFFFFF;
+}
+
+footer {
+    border-radius: 10px 10px 0px 0px;
+    padding: 3% 0px
+}
+
+.div1, .div2, .div3 {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1 {
+    float: left;
+}
+
+.div3 {
+    float: right;
+}
+
+.bio, .div1, .div2, .div3 {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 610px) {
+    .div1, .div3 {
+        float: none;
+    }
+    
+    .carousel-indicators {
+        display: none;
+    }
+    
+    .carousel-caption h3 {
+        font-size: 90%;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+}
